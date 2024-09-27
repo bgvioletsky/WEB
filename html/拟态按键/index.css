@@ -1,0 +1,35 @@
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ffffff;
+    gap: 30px;
+}
+
+.bg-img {
+    height: 100px;
+    width: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    box-shadow: 18px 18px 30px rgba(0, 0, 0,0.2),
+                -18px -18px 30px rgba(255, 255, 255, 1);
+    transition: all 0.2s ease-out;
+}
+.kk {
+    height: 60px;
+    width: 60px;
+    transition: all 0.2s ease-out;
+}
+.bg-img:hover{
+    cursor:pointer;
+    box-shadow: 0 0 0 rgba(0, 0,0, 0.2),0 0 0 rgba(255, 255, 255, 0.8),
+    inset 18px 18px 30px rgba(0, 0, 0, 0.1),inset -18px -18px 30px rgba(255, 255, 255, 1);
+}
+.bg-img:focus{
+    background-color: antiquewhite;
+}
